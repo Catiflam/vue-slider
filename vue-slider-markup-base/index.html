@@ -13,10 +13,10 @@
 			<div class="container">
 				<div class="slider-wrapper" tabindex="0">
 					<div class="item">
-						<img :src="images[activeImage]" alt="Spiderman" />
+						<img :src="slides[activeSlide].image" alt="Spiderman" />
 						<div class="text">
-							<h3>{{ title }}</h3>
-							<p>{{ text }}</p>
+							<h3>{{ slides[activeSlide].title }}</h3>
+							<p>{{ slides[activeSlide].text }}</p>
 						</div>
 					</div>
 
@@ -24,19 +24,19 @@
 						<div class="prev" @click="goNext()"></div>
 						<div class="next" @click="goPrev()"></div>
 						<div class="thumb active">
-							<img :src="images[0]" alt="Svezia" />
+							<img :src="slides[0].image" alt="Svezia" />
 						</div>
 						<div class="thumb">
-							<img :src="images[1]" alt="Ratchet & Clank" />
+							<img :src="slides[1].image" alt="Ratchet & Clank" />
 						</div>
 						<div class="thumb">
-							<img :src="images[2]" alt="Fortnite" />
+							<img :src="slides[2].image" alt="Fortnite" />
 						</div>
 						<div class="thumb">
-							<img :src="images[3]" alt="Stray" />
+							<img :src="slides[3].image" alt="Stray" />
 						</div>
 						<div class="thumb">
-							<img :src="images[4]" alt="Avengers" />
+							<img :src="slides[4].image" alt="Avengers" />
 						</div>
 					</div>
 				</div>

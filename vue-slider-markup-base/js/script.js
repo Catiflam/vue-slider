@@ -31,10 +31,6 @@ createApp({
 				},
 			],
 			activeSlide: 0,
-			//.slides: ["img/01.webp", "img/02.webp", "img/03.webp", "img/04.webp", "img/05.webp"],
-			// activeSlide: 0,
-			// title: " Spiderman",
-			// text: "Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become his own Spider-Man.",
 		};
 	},
 	methods: {
